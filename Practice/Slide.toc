@@ -1,0 +1,3 @@
+\beamer@sectionintoc {2}{Introduction to \LaTeX }{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{Definition of \LaTeX }{3}{0}{1}
+\beamer@subsectionintoc {2}{2}{Resources on \LaTeX }{4}{0}{1}

@@ -1,0 +1,24 @@
+\beamer@sectionintoc {1}{Welcome}{2}{0}{1}
+\beamer@sectionintoc {2}{First Topic : Selection Sort}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Selection sort First Pass}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Selection Sort: Second Pass}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{Selection Sort: Third Pass}{7}{0}{2}
+\beamer@subsectionintoc {2}{4}{Selection Sort: Fourth Pass}{8}{0}{2}
+\beamer@subsectionintoc {2}{5}{Selection Sort: Fifth Pass}{9}{0}{2}
+\beamer@subsectionintoc {2}{6}{Selection Sort Algorithm: Overview}{10}{0}{2}
+\beamer@sectionintoc {3}{Second Topic :Insertion Sort}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{Insertion Sort Steps}{13}{0}{3}
+\beamer@subsectionintoc {3}{2}{Insertion sort First Pass}{14}{0}{3}
+\beamer@subsectionintoc {3}{3}{Insertion sort Second Pass}{15}{0}{3}
+\beamer@subsectionintoc {3}{4}{Insertion sort Third Pass}{16}{0}{3}
+\beamer@subsectionintoc {3}{5}{Insertion sort Fourth Pass}{17}{0}{3}
+\beamer@subsectionintoc {3}{6}{Insertion Sort Demonstration}{18}{0}{3}
+\beamer@subsectionintoc {3}{7}{Insertion Sort Algorithm}{19}{0}{3}
+\beamer@subsectionintoc {3}{8}{Insertion Sort C++ Code}{20}{0}{3}
+\beamer@sectionintoc {4}{Result \& Complexity Analysis}{21}{0}{4}
+\beamer@subsectionintoc {4}{1}{Graph with Explanation}{22}{0}{4}
+\beamer@subsectionintoc {4}{2}{Sorting Algorithms - Time Complexity}{23}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{24}{0}{5}
+\beamer@sectionintoc {6}{References}{25}{0}{6}
+\beamer@sectionintoc {7}{Questions \& Answers}{26}{0}{7}
+\beamer@sectionintoc {8}{Thanks}{27}{0}{8}

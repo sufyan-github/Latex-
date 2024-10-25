@@ -1,0 +1,23 @@
+\frametitle{ Answer the Question no 2}
+\begin{table}[!hbt]
+    \begin{tabular}{|c|c|}
+        \hline Dummy Text & Dummy Text \\
+        \hline Dummy Text & {
+            \begin{tabularx}{|c|c|}
+                Dummy Text & Dummy Text\\
+            \end{tabularx}}
+        \hline
+        \hline Dummy Text & {
+            \begin{tabularx}{|c|c|}
+                Dummy Text & Dummy Text\\
+            \end{tabularx}
+        }
+        \hline
+
+        \hline Dummy Text & {
+            \begin{tabularx}{|c|c|}
+                Dummy Text & Dummy Text\\
+            \end{tabularx}}
+        \hline
+    \end{tabular}
+\end{table}

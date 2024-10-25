@@ -1,0 +1,124 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{ulem}
+\usepackage{setspace}
+\begin{document}
+    1. {\em Normal emphasized texts.}
+    \ULforem % Redefining effects of {\em } and \emph{}.
+    2. {\em Underlined texts with line breaks.}
+    3. \emph{Yet underlined texts with line breaks.}
+    4. {\it{\em Underlined texts in italic fonts …}}
+    5. \textit{\emph{Yet underlined texts in …}}
+    \normalem % For normal effects of {\em } and \emph{}.
+    6. {\em Returned to normal emphasized texts.}
+    7. The next phase is \uwave{wavy underlined.}
+    8. The next phase is \sout{striked out statement.}
+    9. The next phase is \xout{crossed out statement.}
+    
+%----------------
+\section{Centre of gravity}\label{sec:cg}
+    This is the point though which the resultant
+    of the gravitational forces of all elemental
+    weights of a body acts.
+%
+    \section{Centre of mass}\label{sec-ex}
+    The definition of the centre of gravity is
+    given in Section \ref{sec:cg}
+    
+%-------------------
+\begin{flushleft}
+    \LaTeX\ prints texts with both side aligned.
+    Left aligned texts can be produced through
+    the ‘flushleft’ environment.
+    \end{flushleft}
+    \begin{flushright}
+        \LaTeX\ prints texts with both side aligned.
+        Right aligned texts can.
+    \end{flushright}
+    \begin{center}
+        \LaTeX\ prints texts with both side aligned.
+        Center aligned texts can.
+    \end{center}
+    
+%-----------------------------
+LaTeX\ prints texts with both side aligned,
+    covering the specified width of a page.
+    \begin{quotation}
+        \begin{spacing}{1.2}
+            Quoted statements are also printed with both side
+            aligned, but in a narrowed width.
+            \begin{flushright}
+                {\it - Anonymous}
+            \end{flushright}
+        \end{spacing}
+    \end{quotation}
+    The ‘quotation’ environment is used for printing
+    quoted statements in a narrowed width.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+%--------------------------
+(1) There are certain key issues to attract
+investors, which need to be addressed.
+\newline
+(2) There are certain key issues to attract
+investors, which need to be addressed.\linebreak
+(3) There are certain key issues to attract
+investors, which need to be addressed.\\
+(4) There are certain key issues to attract
+investors, which need to be addressed.\\\\
+(5) There are certain key issues to attract
+investors, which need to be addressed.
+(6) There are certain key issues to attract
+investors, which need to be addressed.
+
+%-------------------------------------
+
+ \par
+    (1) There are certain key issues to attract
+    investors, which need to be addressed.
+    %
+    \par \parindent = 8mm
+    (2) There are certain key issues to attract
+    investors, which need to be addressed.
+    %
+    \par \noindent \parskip 2mm
+    (3) There are certain key issues to attract
+    investors, which need to be addressed.
+    \par
+    (4) There are certain key issues to attract
+    investors, which need to be addressed.
+    %
+    \paragraph{(5) Investing policies:}
+    There are certain key issues to attract
+    investors, which need to be addressed.
+    %
+    \subparagraph{(6) Investing policies:}
+    There are certain key issues to attract
+    investors, which need to be addressed.
+    
+    %--------------------------
+    \begin{center}
+    \LaTeX\ in 24 Hours
+    \vspace{8mm}\\
+    A Practical Guide for Scientific Writing
+    \end{center}
+
+    \begin{center}
+        \LaTeX\ in 24 Hours
+        \vskip 8mm
+        A Practical Guide for Scientific Writing
+    \end{center}
+    \begin{center}
+        \LaTeX\ in 24 Hours
+        \vspace{8mm}\\
+        A Practical Guide for Scientific Writing
+    \end{center}
+    Writing language: \hspace{5mm} English.
+    Marks: 100 \hfill Time: 3 Hours.
+\end{document}

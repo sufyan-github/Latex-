@@ -1,0 +1,28 @@
+%--- Roll - 2003085 --------
+%LE_Q1
+
+\documentclass[a4paper]{article}
+\usepackage{tabularx}
+\usepackage{multirow}
+
+\begin{document}
+ \begin{table}[!hbt]
+        \begin{tabularx}{\linewidth}{|l|X|}
+            \hline Dummy Text&Dummy Text\\
+            \hline Dummy Text& {
+            Dummy Text \\
+            Dummy Text \\
+            }
+            \hline Second& {
+            \begin{tabularx}{\linewidth}{X|c}
+            English & 77\\
+            Science & 85\\
+            Mathematics & 83\\
+            \end{tabularx}
+            }& 309\\
+            \hline
+            \multicolumn{2}{|r|}{Grand Total}& 550\\
+            \hline
+        \end{tabularx}
+    \end{table}
+\end{document}

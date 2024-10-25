@@ -1,0 +1,29 @@
+%--- Roll - 2003085 --------
+%LE_Q2
+
+\documentclass{article}
+\usepackage{tabularx}
+\begin{document}
+	\begin{table}[!hbt]
+        \begin{tabular}{|c|c|}
+            \hline Dummy Text & Dummy Text \\
+            \hline Dummy Text & {
+                \begin{tabularx}{|c|c|}
+                    Dummy Text & Dummy Text\\
+                \end{tabularx}}
+            \hline
+            \hline Dummy Text & {
+                \begin{tabularx}{|c|c|}
+                    Dummy Text & Dummy Text\\
+                \end{tabularx}
+            }
+            \hline
+
+            \hline Dummy Text & {
+                \begin{tabularx}{|c|c|}
+                    Dummy Text & Dummy Text\\
+                \end{tabularx}}
+            \hline
+        \end{tabular}
+    \end{table}
+\end{document}
